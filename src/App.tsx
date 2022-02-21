@@ -1,10 +1,23 @@
 import React from 'react';
+// import { TextField } from "./TextField";
+
+// const App: React.FC = () => {
+//   return <div>
+//     <TextField text='hello' person={{firstName: '', lastName: ''}}/>
+//   </div>
+// }
+
+// export default App;
+
+
 import logo from './logo.svg';
 import './App.css';
+import Header from './Header';
 
 function App() {
   return (
     <div className="App">
+      <Header buttonText='Click me!' />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
